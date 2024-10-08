@@ -1,0 +1,11 @@
+langchain-openai
+langchain-community
+docx2txt
+pypdf
+streamlit
+pinecone
+speechrecognition
+whisper
+google-cloud-texttospeech
+google-cloud-speech
+python-dotenv
