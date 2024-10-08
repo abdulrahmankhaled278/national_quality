@@ -366,12 +366,12 @@ if __name__ == '__main__':
     from dotenv import load_dotenv, find_dotenv
     load_dotenv(find_dotenv(), override=True)
     
-    st.markdown("""
-        <div class="center-container logo-container">
-        <h1 >Welcome to National Quality</h1>
-        <img src="https://i.postimg.cc/90MjR8Gv/National.gif" alt="National Quality Logo" width="300">
-        </div>
-        """, unsafe_allow_html=True)
+    # st.markdown("""
+    #     <div class="center-container logo-container">
+    #     <h1 >Welcome to National Quality</h1>
+    #     <img src="https://i.postimg.cc/90MjR8Gv/National.gif" alt="National Quality Logo" width="300">
+    #     </div>
+    #     """, unsafe_allow_html=True)
     
     with st.sidebar:
         api_key = st.text_input('OpenAI API Key: ', type='password')
